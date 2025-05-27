@@ -5,72 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Input in html</title>
   </head>
-<body>
-  <header>
-    <h1>Input and Form</h1>
-  </header>
+  <body>
+    <header>
+      <h1>Input and Form</h1>
+    </header>
 
-  <main>
-    <!-- ogni input ha un attributo id che lo identifica-->
-    <!-- ogni input è accompagnato da label che ha un attributo for che ha lo stesso valore dell'id dell'input -->
-     <form>
-    <div>
-      <label for="Name">Nome</label>
-      <input id="Name"  placeholder="Name" />
-    </div>
-    <div>
-      <label for="Surname">Surname</label>
-      <input id="Surname" ; placeholder="Surname" required />
-    </div>
+    <main>
+      <!-- ogni input ha un attributo id che lo identifica-->
+      <!-- ogni input è accompagnato da label che ha un attributo for che ha lo stesso valore dell'id dell'input -->
+      <form>
+        <div>
+          <label for="Name">Nome</label>
+          <input id="Name" placeholder="Name" />
+        </div>
+        <div>
+          <label for="Surname">Surname</label>
+          <input id="Surname" ; placeholder="Surname" required />
+        </div>
 
-    <div>
-      <label for="Age">Age</label>
-      <input type="number" id="Age" min="0" max="100" required />
-    </div>
+        <div>
+          <label for="Age">Age</label>
+          <input type="number" id="Age" min="0" max="100" required />
+        </div>
 
-    <div>
-    
-      <label for="Phone Number">Phone number</label>
-      <input type="tel" id="Phone Number"  placeholder="Phone Number" required />
-    </div>
-    <div>
-      <label for="Birth date"></label>
-      <input type="date" id="Birth date" required />
-    </div>
-    <div>
-        <label for="email address"></label>
-        <input type="email" id="email address" placeholder="Your email"/>
-    </div>
-    <div>
-        <label id="favorite car"> Macchina preferita
-            
-        <select id="macchina preferita">
-            <option> Smart</option>
-            <option>Polo</option>
-            <option>Golf</option>
-    
-        </select></label>
-    </div>
-    <div>
-        <label for="driver licence-a"> Patente A </label>
-        <input id= "Driver Licence-a" type="radio"; value="A" name="Patente A">
-    </div>
-    <div>
-        <label for="driver licence-b"> Patente B </label>
-        <input id= "Driver Licence-b" type="radio"; value="B" name="Patente B">
-    </div>
-    <div>
-        <label for="driver licence-D"> Patente D </label>
-        <input id= "Driver Licence-D" type="radio"; value="D" name="Patente D">
-    </div>
+        <div>
+          <label for="Phone Number">Phone number</label>
+          <input
+            type="tel"
+            id="Phone Number"
+            placeholder="Phone Number"
+            required
+          />
+        </div>
+        <div>
+          <label for="Birth date"></label>
+          <input type="date" id="Birth date" required />
+        </div>
+        <div>
+          <label for="email address"></label>
+          <input type="email" id="email address" placeholder="Your email" />
+        </div>
+        <div>
+          <label id="favorite car">
+            Macchina preferita
 
+            <select id="macchina preferita">
+              <option>Smart</option>
+              <option>Polo</option>
+              <option>Golf</option>
+            </select></label
+          >
+        </div>
+        <div>
+          <label for="driver licence-a"> Patente A </label>
+          <input
+            id="Driver Licence-a"
+            type="radio"
+            ;
+            value="A"
+            name="Patente A"
+          />
+        </div>
+        <div>
+          <label for="driver licence-b"> Patente B </label>
+          <input
+            id="Driver Licence-b"
+            type="radio"
+            ;
+            value="B"
+            name="Patente B"
+          />
+        </div>
+        <div>
+          <label for="driver licence-D"> Patente D </label>
+          <input
+            id="Driver Licence-D"
+            type="radio"
+            ;
+            value="D"
+            name="Patente D"
+          />
+        </div>
 
-    <!--  tag button inserito in un form che di oinviare automaticamente delle informazioni; se messo fuori dal form no. un botton messo dentro a un form acquisisce automaticamente il type submit-->
-     <button>Invia</button>
-     <button type= "reset" > Reset  </button>
-  </main>
-  </form>
-  <hr />
-  <footer>2025-Alessandra</footer>
+        <!--  tag button inserito in un form che di oinviare automaticamente delle informazioni; se messo fuori dal form no. un botton messo dentro a un form acquisisce automaticamente il type submit-->
+        <button>Invia</button>
+        <button type="reset">Reset</button>
+      </form>
+    </main>
+    <hr />
+    <footer>Alessandra 2025</footer>
   </body>
 </html>
